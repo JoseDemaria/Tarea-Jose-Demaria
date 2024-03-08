@@ -1,0 +1,90 @@
+:root{
+    color: #7D0A0A;
+    color: #BF3131;
+    color: #EAD196;
+    color: #F3EDC8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    background-color: #EAD196;
+}
+header {
+    background-color:  #7D0A0A;
+}
+h1{ 
+    color: #EAD196;
+    background-color: #7D0A0A;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+h2{
+    color: black;
+    text-align: center;
+    background-color: #7D0A0A;
+    padding: 1rem;
+}
+
+section>h3 {
+    background-color: #EAD196;
+    display: inline-block;
+    color: black;
+}
+a[href="#"]{
+    background-color: #BF3131;
+    color: black;
+}
+a[href="mail"]{
+    background-color: #EAD196;
+    color: #7D0A0A;
+}
+#main {
+    text-align: end;
+}
+section>p {
+    display: inline-block;
+    text-align: center;
+}
+
+nav {
+    color: white;
+    background-color: #7D0A0A;
+    padding: 2rem;
+    text-align: end;
+    height: 3vh;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: #BF3131;
+}
+
+a{
+    background-color: #F3EDC8;
+    color: #7D0A0A;
+    text-decoration: none;
+    border-radius: 5rem;
+    padding: 10px;
+
+}
+body {
+    background-color: #EAD196;
+    min-height: 79vh;
+}
+footer {
+    height: 3vh;
+    background-color: #EAD196;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: end ;
+    padding: 1rem;
+}
+article {
+    color: black;
+    display: inline-block;
+    text-align-last: auto;
+}
